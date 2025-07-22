@@ -6,7 +6,7 @@
 ### [snes9x_2005_overclock_cycles]      :[disabled] :[disabled|compatible|max]
 ### [snes9x_2005_reduce_sprite_flicker] :[disabled] :[disabled|enabled]
 snes9x_2005_region = "auto"
-snes9x_2005_frameskip = "auto"
+snes9x_2005_frameskip = "0"
 snes9x_2005_frameskip_threshold = "33"
 snes9x_2005_low_pass_filter = "disabled"
 snes9x_2005_low_pass_range = "60"

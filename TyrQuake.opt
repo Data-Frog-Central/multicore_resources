@@ -6,7 +6,8 @@
 ### [tyrquake_rumble]          :[disabled]:[disabled|enabled]
 tyrquake_analog_deadzone = "15"
 tyrquake_colored_lighting = "disabled"
-tyrquake_framerate = "auto"
+tyrquake_framerate = "30"
 tyrquake_invert_y_axis = "disabled"
-tyrquake_resolution = "320x240"
+tyrquake_resolution = "128x96"
 tyrquake_rumble = "disabled"
+tyrquake_audio = "disabled"

@@ -29,8 +29,8 @@
 ### [pce_fast_nospritelimit]             :[disabled]      :[disabled|enabled]
 ### [pce_fast_ocmultiplier]              :[1]             :[1|2|3|4|5|6|7|8|9|10|20|30|40|50]
 pce_fast_palette = "RGB"
-pce_fast_frameskip = "auto"
-pce_fast_frameskip_threshold = "33"
+pce_fast_frameskip = "manual"
+pce_fast_frameskip_threshold = "60"
 pce_fast_hoverscan = "352"
 pce_fast_initial_scanline = "3"
 pce_fast_last_scanline = "242"
