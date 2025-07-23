@@ -4,6 +4,7 @@
 ### [gpsp_sprlim]              :[disabled] :[disabled|enabled]
 ### [gpsp_rtc]                 :[auto]     :[disabled|enabled|auto]
 ### [gpsp_rumble]              :[disabled] :[auto|disabled|enabled]
+### It's best not to use auto, as it leads to permanently slower performance due to a frontend bug
 ### [gpsp_frameskip]           :[auto]     :[disabled|auto|auto_threshold|fixed_interval]
 ### [gpsp_frameskip_threshold] :[33]       :[15|18|21|24|27|30|33|36|39|42|45|48|51|54|57|60]
 ### [gpsp_frameskip_interval]  :[1]        :[0|1|2|3|4|5|6|7|8|9|10]
@@ -16,9 +17,14 @@ gpsp_drc = "enabled"
 gpsp_sprlim = "disabled"
 gpsp_rtc = "auto"
 gpsp_rumble = "auto"
-gpsp_frameskip = "auto"
+### It's best not to use auto, as it leads to permanently slower performance due to a frontend bug
+gpsp_frameskip = "disabled"
 gpsp_frameskip_threshold = "33"
 gpsp_frameskip_interval = "1"
 gpsp_color_correction = "disabled"
 gpsp_frame_mixing = "disabled"
 gpsp_turbo_period = "4"
+
+gpsp_fake_rtc = "enabled"
+gpsp_fake_rtc_persistent_bump_minutes = "240"
+gpsp_fake_rtc_one_off_bump_minutes = "0"
