@@ -6,9 +6,12 @@
 ### [bluemsx_cartmapper]      :[Auto]     :[Auto|Normal|mirrored|basic|0x4000|0xC000|ascii8|ascii8sram|ascii16|ascii16sram|ascii16nf|konami4|konami4nf|konami5|konamisynth|korean80|korean90|korean126|MegaFlashRomScc|MegaFlashRomSccPlus|msxdos2|scc|sccexpanded|sccmirrored|sccplus|snatcher|sdsnatcher|SegaBasic|SG1000|SG1000Castle|SG1000RamA|SG1000RamB|SC3000]
 ### [bluemsx_auto_rewind_cas] :[ON]       :[ON|OFF]
 bluemsx_msxtype = "Auto"
-bluemsx_overscan = "disabled"
+bluemsx_overscan = "enabled"
 bluemsx_vdp_synctype = "Auto"
 bluemsx_nospritelimits = "OFF"
 bluemsx_ym2413_enable = "enabled"
 bluemsx_cartmapper = "Auto"
 bluemsx_auto_rewind_cas = "ON"
+bluemsx_scc_enable = "disabled"
+bluemsx_moonsound_enable = "disabled"
+bluemsx_yamaha_sfg_enable = "disabled"

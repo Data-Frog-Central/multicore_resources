@@ -1,0 +1,5 @@
+# Scorched Earth - Keyboard Mode with default layout
+# Artillery game using keyboard for input
+
+dosbox_svn_input_mode = "keyboard"
+dosbox_svn_keyboard_layout = "default"

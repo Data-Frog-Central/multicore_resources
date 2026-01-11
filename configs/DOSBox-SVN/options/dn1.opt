@@ -1,0 +1,4 @@
+# Duke Nukem 1 - Keyboard Mode
+# Platformer that requires keyboard controls
+
+dosbox_svn_input_mode = "keyboard"

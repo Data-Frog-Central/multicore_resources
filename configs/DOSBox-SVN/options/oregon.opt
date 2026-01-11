@@ -1,0 +1,6 @@
+# Oregon Trail - Keyboard Mode with Oregon Trail layout
+# Menu-driven game that needs keyboard input
+# Layout: UP=1, DOWN=2, LEFT=3, RIGHT=arrows, A=Enter, B=ESC, X=4, Y=Space
+
+dosbox_svn_input_mode = "keyboard"
+dosbox_svn_keyboard_layout = "oregon"

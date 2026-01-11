@@ -1,0 +1,9 @@
+# Dangerous Dave - Keyboard Mode
+# Simple platformer using keyboard controls
+# Controls: D-pad=arrows, A=Ctrl (jump), B=Alt (shoot)
+
+dosbox_svn_input_mode = "keyboard"
+dosbox_svn_keyboard_layout = "default"
+dosbox_svn_cpu_cycles = "15000"
+dosbox_svn_cpu_core = "simple"
+dosbox_svn_machine_type = "vgaonly"

@@ -1,0 +1,50 @@
+# DOSBox SVN Core Options - Optimized for SF2000/GB300
+# Lower settings for better performance on limited hardware
+
+# Enable core options
+dosbox_svn_use_options = "true"
+
+# Input mode - joystick for games with joystick support, keyboard for keyboard-only games
+# Set to "keyboard" for games like Lemmings that need keyboard input
+dosbox_svn_input_mode = "joystick"
+
+# Keyboard layout preset (only applies when input_mode = "keyboard")
+# Options: "default" (D-pad=arrows, A=Enter, B=Space)
+#          "oregon" (UP=1, DOWN=2, LEFT=3, RIGHT=arrows, A=Enter, B=ESC, X=4, Y=Space)
+# dosbox_svn_keyboard_layout = "default"
+
+# Disable overlay filesystem (it hides ROM files)
+dosbox_svn_save_overlay = "false"
+
+# CPU - Conservative cycles for compatibility
+dosbox_svn_cpu_cycles = "5000"
+dosbox_svn_cpu_type = "auto"
+dosbox_svn_cpu_core = "auto"
+
+# Timing - Unsynced mode (SF2000 doesn't support dynamic AV_INFO)
+dosbox_svn_core_timing = "unsynced"
+
+# Machine type - VGA only for compatibility
+dosbox_svn_machine_type = "vgaonly"
+dosbox_svn_svga = "svga_s3"
+
+# Memory - 4MB should be enough for most DOS games
+dosbox_svn_memory_size = "4"
+
+# Audio - Lower sample rate for performance
+dosbox_svn_samplerate = "22050"
+
+# Sound Blaster 16 configuration (standard for most games)
+dosbox_svn_sblaster_type = "sb16"
+dosbox_svn_sblaster_base = "220"
+dosbox_svn_sblaster_irq = "7"
+dosbox_svn_sblaster_dma = "1"
+dosbox_svn_sblaster_hdma = "5"
+dosbox_svn_sblaster_opl_mode = "auto"
+dosbox_svn_sblaster_opl_emu = "default"
+
+# Gravis Ultrasound - Disabled by default
+dosbox_svn_gus = "false"
+
+# Advanced options - Keep simple
+dosbox_svn_adv_options = "false"

@@ -1,0 +1,7 @@
+# Commander Keen - Keyboard Mode
+# Platform game using keyboard controls
+# Controls: D-pad=arrows, A=Ctrl (jump), B=Alt (pogo stick), Y=Space (shoot)
+
+dosbox_svn_input_mode = "keyboard"
+dosbox_svn_keyboard_layout = "keen"
+dosbox_svn_cpu_cycles = "50000"

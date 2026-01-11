@@ -61,4 +61,6 @@ nestopia_select_adapter = "auto"
 nestopia_show_advanced_av_settings = "disabled"
 nestopia_show_crosshair = "enabled"
 nestopia_turbo_pulse = "2"
-nestopia_zapper_device = "lightgun"
+nestopia_zapper_device = "lightgun"       
+### 1-4 (Skip 4 Frames) - Renders 1, skips 4, etc. (20% CPU load)          
+nestopia_frameskip = 1
