@@ -2,6 +2,9 @@
 ### [frogui_theme]                    :[MinUI Style]  :[MinUI Style|Emerald|Orange|Golden|Rose|Purple|Prosty's Pink|Green|Red|Commodore 64|Game Boy|NES|Amber CRT|Green CRT|DOS|Famicom|SNES|Matrix|Sajnaps Green|Q_ta's Light Wii|Q_ta's Dark Wii|Desoxyn's Purple|Ocean|Sunset|Mono Dark|Nord|Dracula|Gruvbox|Tokyo Night|Solarized Dark]
 ### [frogui_resume_on_boot]           :[false]        :[true|false]
 ### [frogui_hide_empty]               :[true]         :[true|false]
+### [frogui_prevent_scrolling]        :[false]        :[true|false]
+### [frogui_bgm_enabled]              :[true]         :[true|false]
+### [frogui_sfx_enabled]              :[true]         :[true|false]
 ### [sf2000_show_fps]                 :[false]        :[true|false]
 ### [sf2000_enable_savestate_hotkeys] :[false]        :[true|false]
 ### [sf2000_swap_controllers]         :[false]        :[true|false]
@@ -10,6 +13,9 @@ frogui_font = "GamePocket"
 frogui_theme = "Desoxyn's Purple"
 frogui_resume_on_boot = "false"
 frogui_hide_empty = "true"
+frogui_prevent_scrolling = "false"
+frogui_bgm_enabled = "true"
+frogui_sfx_enabled = "true"
 sf2000_show_fps = "false"
 sf2000_enable_savestate_hotkeys = "false"
 sf2000_swap_controllers = "false"
