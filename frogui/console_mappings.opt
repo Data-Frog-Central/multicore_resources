@@ -2,75 +2,89 @@
 ### folder_name is the folder you want to associate a core with
 ### core_name is the internal core name
 ### console_file is the core filename
-menu = FrogUI = menu
-gb = Gambatte = gb
-gbb = TGB Dual = gbb
-gbgb = Gearboy = gbgb
-dblcherrygb = DoubleCherry-GB = dblcherrygb
-gba = gpSP = gba
-gbaf = gpSP = gbaf
-gbaff = gpSP = gbaff
-gbav = VBA-Next = gbav
-mgba = mGBA = mgba
-nes = FCEUmm = nes
-nesq = QuickNES = nesq
-nest = Nestopia = nest
-snes = Snes9x2005 = snes
-snes02 = Snes9x2002 = snes02
-sega = PicoDrive = sega
-gg = Gearsystem = gg
-gpgx = Genesis-Plus-GX = gpgx
-pce = Beetle-PCE-Fast = pce
-pcesgx = Beetle-SuperGrafx = pcesgx
-pcfx = Beetle-PCFX = pcfx
-ngpc = RACE = ngpc
-lnx = Handy = lnx
-lnxb = Beetle-Lynx = lnxb
-wswan = Beetle-WonderSwan = wswan
-wsv = Potator = wsv
-pokem = PokeMini = pokem
-vb = Beetle-VB = vb
-a26 = Stella2014 = a26
+gb = Gambatte = Gambatte
+gbb = TGB Dual = TGB Dual
+gba = gpSP = gpSP
+gbaf = gpSP = gpSP-F
+gbaff = gpSP = gpSP-FF
+nes = FCEUmm = FCEUmm
+nesq = QuickNES = QuickNES
+snes = Snes9x 2005 = Snes9x 2005
+snes02 = Snes9x 2002 = Snes9x 2002
+sega = PicoDrive = PicoDrive
+gg = Gearsystem = Gearsystem
+pce = Beetle PCE Fast = PCE-Fast
+pcesgx = Beetle SuperGrafx = Beetle SGX
+pcfx = Beetle PC-FX = Beetle PC-FX
+ngpc = RACE = RACE
+lnx = Handy = Handy
+wswan = Beetle WonderSwan = WonderSwan
+wsv = Potator = Potator
+pokem = PokeMini = PokeMini
+vb = Beetle VB = Beetle VB
+a26 = Stella2014 = Stella 2014
 a5200 = Atari5200 = a5200
-a78 = ProSystem = a78
-a800 = Atari800 = a800
-int = FreeIntv = int
-col = Gearcoleco = col
-msx = BlueMSX = msx
-spec = Fuse = spec
-zx81 = EightyOne = zx81
-thom = Theodore = thom
-vec = VecX = vec
-c64 = VICE-x64 = c64
-c64sc = VICE-x64sc = c64sc
-c64f = Frodo = c64f
-c64fc = Frodo = c64fc
-vic20 = VICE-xvic = vic20
-amstradb = CAP32 = amstradb
-amstrad = CrocoDS = amstrad
-bk = BK-Emulator = bk
-pc8800 = QUASI88 = pc8800
+a78 = ProSystem = ProSystem
+a800 = Atari800 = Atari 800
+int = FreeIntv = FreeIntv
+col = Gearcoleco = Gearcoleco
+msx = BlueMSX = blueMSX
+spec = Fuse = Fuse
+zx81 = EightyOne = EightyOne
+thom = Theodore = Theodore
+vec = VecX = vecx
+c64 = VICE x64 = Vice c64
+c64sc = VICE x64sc = Vice c64sc
+vic20 = VICE xvic = Vice vic20
+amstradb = CAP32 = cap32
+pc8800 = QUASI88 = QUASI88
 xmil = X-Millennium = xmil
-m2k = MAME2000 = m2k
-chip8 = JAXE = chip8
-fcf = FreeChaF = fcf
-retro8 = Retro8 = retro8
-vapor = VaporSpec = vapor
-gong = Gong = gong
-outrun = Cannonball = outrun
-wolf3d = ECWolf = wolf3d
-prboom = PrBoom = prboom
-flashback = REminiscence = flashback
-xrick = XRick = xrick
-gw = Game-and-Watch = gw
-cdg = PocketCDG = cdg
-gme = Game-Music-Emu = gme
-fake08 = FAKE-08 = fake08
-lowres-nx = LowRes-NX = lowres-nx
-jnb = Jump-n-Bump = jnb
-cavestory = NXEngine = cavestory
-o2em = O2EM = o2em
-quake = TyrQuake = quake
-arduboy = Arduous = arduboy
-js2000 = js2000 = js2000
+m2k = MAME 2000 = M2k
+chip8 = JAXE = JAXE
+fcf = FreeChaF = FreeChaF
+retro8 = Retro8 = Retro8
+vapor = VaporSpec = VaporSpec
+gong = Gong = Gong
+outrun = Cannonball = Cannonball
+wolf3d = ECWolf = ECWolf
+prboom = PrBoom = PrBoom
+flashback = REminiscence = REminiscence
+xrick = XRick = XRick
+gw = Game & Watch = GameWatch
+cdg = PocketCDG = PocketCDG
+gme = Game Music Emulator = GME
+fake08 = fake-08 = FAKE-08
+lowres-nx = LowRes NX = LowRes NX
+jnb = Jump 'n Bump = Jump 'n Bump
+cavestory = NXEngine = NXEngine
+o2em = O2EM = O2EM
+quake = TyrQuake = TyrQuake
+arduboy = Arduous = arduous
 ### Personal folders
+NES = QuickNES = QuickNES
+NES (Extra) = FCEUmm = FCEUmm
+Famicom = QuickNES = QuickNES
+Famicom Disk System = FCEUmm = FCEUmm
+SNES (Fast) = Snes9x 2002 = Snes9x 2002
+SNES = Snes9x 2005 = Snes9x 2005
+Super Famicom (Fast) = Snes9x 2002 = Snes9x 2002
+Super Famicom = Snes9x 2005 = Snes9x 2005
+Game Boy = Gambatte = Gambatte
+Game Boy (2P) = TGB Dual = TGB Dual
+Game Boy Color = Gambatte = Gambatte
+Game Boy Color (2P) = TGB Dual = TGB Dual
+Game Boy Advance = gpSP = gpSP
+Mega Drive = PicoDrive = PicoDrive
+Mega-CD = PicoDrive = PicoDrive
+Genesis = PicoDrive = PicoDrive
+Sega CD = PicoDrive = PicoDrive
+Game Gear = Gearsystem = Gearsystem
+Master System = Gearsystem = Gearsystem
+Mark III = Gearsystem = Gearsystem
+DOOM = PrBoom = PrBoom
+DOOM 2 = PrBoom = PrBoom
+PLUTONIA = PrBoom = PrBoom
+TNT = PrBoom = PrBoom
+Mame 2000 = MAME 2000 = M2k
+Mame 2000 (Extra) = MAME 2000 = M2k-N
+PC Engine = Beetle PCE Fast = PCE-Fast
