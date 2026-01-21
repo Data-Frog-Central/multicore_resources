@@ -6,5 +6,5 @@
 tgbdual_gblink_enable = "enabled"
 tgbdual_screen_placement = "left-right"
 tgbdual_switch_screens = "normal"
-tgbdual_single_screen_mp = "player 1 only"
+tgbdual_single_screen_mp = "both players"
 tgbdual_audio_output = "Game Boy #1"

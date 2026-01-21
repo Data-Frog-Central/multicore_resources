@@ -18,9 +18,6 @@
 ### [gambatte_fake_rtc]                         :[enabled]                      :[enabled|disabled]
 ### [gambatte_fake_rtc_persistent_bump_minutes] :[360]                          :[0|60|120|180|240|300|360|420|480|540|600|720|1440]
 ### [gambatte_fake_rtc_one_off_bump_minutes]    :[0]                            :[0|1|5|10|30|60|120|180|240|300|360]
-### [sf2000_enable_screenshot_hotkey]           :[false]                        :[true|false]
-### [sf2000_enable_darken_filter]               :[false]                        :[true|false]
-### darken filter causes issues and screenshots save wrong so just disable for now
 gambatte_audio_resampler = "sinc"
 gambatte_dark_filter_level = "0"
 gambatte_gb_bootloader = "enabled"
@@ -41,5 +38,3 @@ gambatte_up_down_allowed = "disabled"
 gambatte_fake_rtc = "enabled"
 gambatte_fake_rtc_persistent_bump_minutes = "360"
 gambatte_fake_rtc_one_off_bump_minutes = "0"
-sf2000_enable_screenshot_hotkey = "false"
-sf2000_enable_darken_filter = "false"
